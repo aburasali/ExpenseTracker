@@ -41,7 +41,6 @@ if ($conn->connect_error) {
         echo    "<br/>$query ";
     }
   
-       //close connection
        $conn -> close();
   ?>
 </body>
